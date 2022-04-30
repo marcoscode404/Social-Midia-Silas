@@ -130,11 +130,12 @@ body, h1 {
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    color: #000000;
-    font-size: 1.3rem;
+    color: var(--white);
+    font-size: 1.4rem;
     justify-content: center;
     background-color: rgb(105, 100, 100);
     border-radius: 6px;
+    gap: 2rem;
     
 }
 
@@ -145,12 +146,21 @@ body, h1 {
     
 }
 
-.links .links-social a i {
-    padding: 1rem;
+.links .links-social a div {
+    width: 100%;
     display: flex;
+    align-items: center;
+    gap: 1.5rem;
     justify-content: center;
-    width: 10rem;
-    color: rgb(219, 199, 199);
+   
+}
+
+
+.links .links-social a i {
+    font-size: 2.7rem;
+    
+	line-height: 40px;    
+    color: var(--white);
 }
 
 .links .links-social a i strong {
@@ -158,64 +168,29 @@ body, h1 {
 }
 
 
+.midias {
+    background-color: rgb(245, 238, 238);
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
 
-/* responsividade
-@media only screen and (max-width: 400px) {
-    .container {
-        width: 395px;
-        height: 90%;
-    }
-    .img img {
-        width: 9rem;
-        height: 9rem;
-    }
-    .links li{
-        margin-bottom: 5px;
-    }
-} */
+.instagram a span, #i {
+    color: rgb(119, 4, 100);
+}
 
-
-
-
-
-
-
-
-#bg {
-    grid-area: left;
-
-    background-position-x: 10rem;
+.midias a {
+    font-size: 2rem;
+    width: 100%;
+    height: 10rem;
 }
 
 
-
-
-/* create balls */
-.ball {
-    width: 21.2rem;
-    height: 21.2rem;
-    background: var(--white);
-    clip-path: circle();
-    opacity: 0.1;
-    position: fixed;
-}
-
-.ball.top {
-    top: -46rem;
-    width: 63.3rem;
-    right: -35rem;
-    height: 63.3rem;
-   
-}
-.ball.medium {
-    right: 20rem;
-}
-
-.ball.bottom {
-    
-    bottom: -15rem;
-    right: 5.6rem;
-}
 
 
 
