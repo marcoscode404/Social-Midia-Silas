@@ -6,9 +6,9 @@ https://social-midia-silas.vercel.app
 
 
 Tecnologias usadas: 
-HTML
-CSS
-JavaScript
+HTML <br/>
+CSS <br/>
+And JavaScript
 
 
 Projeto Simples Para um Client
